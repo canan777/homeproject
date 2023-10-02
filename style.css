@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.section-padding{
+    padding: 100px 0;
+}
+
+
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+}
+
+.carousel-caption{
+    bottom: 220px;
+    z-index: 2;
+}
+
+.carousel-caption h5{
+    font-size: 45px;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+
+.carousel-caption p{
+    font-size: 18px;
+    line-height: 1.9;
+    margin: auto;
+    width: 70%;
+}
+
+.carousel-inner::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.navbar-nav a{
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.navbar-light .navbar-brand{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover{
+    color: black;
+}
+
+.w-100{
+    height: 100%;
+}
+
+.services .card-body i{
+    font-size: 40px;
+}
+
